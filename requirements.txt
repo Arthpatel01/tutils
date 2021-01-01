@@ -20,7 +20,6 @@ psycopg2==2.8.6
 python-git==2018.2.1
 pytube==10.0.0
 pytz==2020.5
-pywin32==228
 requests==2.24.0
 Send2Trash==1.5.0
 six==1.15.0
