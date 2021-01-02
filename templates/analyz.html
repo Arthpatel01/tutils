@@ -3,10 +3,12 @@
 
 {% block content %}
 <title>Analyzing...</title>
+<form>
 <H2>Your analyzed text - {{purpose}}</H2>
 
 <p>
-    {{analyzed_text}}
+  <pre>  {{analyzed_text}}  </pre>
 </p>
 
+</form>
 {% endblock %}
