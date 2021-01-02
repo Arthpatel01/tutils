@@ -2,13 +2,17 @@
 
 
 {% block content %}
-<title>Analyzing...</title>
-<form>
-<H2>Your analyzed text - {{purpose}}</H2>
+<div class = "container">
+  <div class = "row justify-content-center align-items-center">
+    <title>Analyzing...</title>
+    <form>
+      <H2>Your analyzed text - {{purpose}}</H2>
 
-<p>
-  <pre>  {{analyzed_text}}  </pre>
-</p>
-
-</form>
+      <p>
+        <pre>  {{analyzed_text}}  </pre>
+      </p>
+    
+    </form>
+  </div>
+</div>
 {% endblock %}
